@@ -65,13 +65,13 @@ If you get into a mess with migrations, etc, you can just move/delete the `db.sq
 Please do the following:
 
   1. Add the following fields to the `Post` model:
-    1. datetime (mandatory, default to now)
-    2. a subheading (not mandatory, max 200 characters)
+     1. datetime (mandatory, default to now)
+     2. a subheading (not mandatory, max 200 characters)
   2. Refer to https://docs.djangoproject.com/en/1.11/topics/migrations/#workflow for steps to get your model changes into the database.
   3. Render these new fields on each post page and on the index page
   4. Using either client-side (js) or server-side (python) code, insert a blue 300x250 advert placeholder in the main text flow on a post page (i.e. to interrupt reading), according to these constraints:
-    1. An ad must not occur immediately before or after an image
-    2. Ad ad must not occur at the start, not the end of the article
+     1. An ad must not occur immediately before or after an image
+     2. Ad ad must not occur at the start, not the end of the article
   5. Improve the design of the page to your taste, while achieving optimal readability on desktop and mobile devices
 
 ## Submitting your completed task
