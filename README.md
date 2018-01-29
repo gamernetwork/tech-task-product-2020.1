@@ -1,33 +1,83 @@
-## Getting started
+# Gamer Network Technical Task - Frontend Developer
 
-Install Python if you don't already have it.
+Hi!
 
-In a shall, run the following.
+In this task you will set up a working copy of a very, very simple news/reviews website, using some code provided.
+
+The site is built using the Django framework (v1.11) and Python.
+
+You will be asked to:
+
+  - extend the basic `Post` model and render some new data
+  - modify how the `Post` is rendered to include a new automatically inserted element
+  - improve the aesthetics and accessibility of the site
+
+The task is designed to allow you to demonstrate your ability to use new technology, to interpret specifications, to solve programming problems and to present information.
+
+The task is intended to consume an evening - please do not spend more than 3 hours on it.
+
+If anything is unclear, please do no hesitate to get in touch. (The mind-reading test comes later...)
+
+## Getting set up
+
+Install Python 2.7 if you don't already have it.
+
+In a shell, run the following:
 
 ```bash
-git clone git@github.com:gamernetwork/tech-task-frontend-2018.1
+git clone https://github.com/gamernetwork/tech-task-frontend-2018.1.git
 cd tech-task-frontend-2018.1
 
 # set up a python virtual environment
 virtualenv .env
 
 # install Django into this environment
-.env/bin/pip install django
+.env/bin/pip install -r requirements.txt
 
 # set up the database
 .env/bin/python manage.py migrate
+```
+
+You will now have a `db.sqlite3` file in your project directory. This is your database.
+
+```
+# import 3 starting articles
+.env/bin/python manage.py loaddata youreagamer_starting_articles
 
 # set yourself up as a user for the backend of this site
 .env/bin/python manage.py createsuperuser
 ```
 
+You can now start a local development server (errors and access logs will show here) and get hacking
+
+```
+.env/bin/python manage.py runserver
+```
+
+### Note regarding database
+
+If you get into a mess with migrations, etc, you can just move/delete the `db.sqlite3` file and re-run the `migrate`, `loaddata` and `createsuperuser` steps again to get back to a fresh install.
+
 ## Tasks
 
-  - Add the following fields to each post:
-    - datetime
-    - a subheading
-  - Render these new fields on each post page and on the index page
-  - Insert a blue 300x250 advert placeholder in the main text flow on a post page (i.e. to interrupt reading), according to these constraints:
+Please do the following:
+
+  1. Add the following fields to the `Post` model:
+    - datetime (mandatory, default to now)
+    - a subheading (not mandatory, max 200 characters)
+  2. Refer to https://docs.djangoproject.com/en/1.11/topics/migrations/#workflow for steps to get your model changes into the database.
+  3. Render these new fields on each post page and on the index page
+  4. Using either client-side (js) or server-side (python) code, insert a blue 300x250 advert placeholder in the main text flow on a post page (i.e. to interrupt reading), according to these constraints:
     - An ad must not occur immediately before or after an image
     - Ad ad must not occur at the start, not the end of the article
-  - Improve the design of the page to your taste, while achieving optimal readability on desktop and mobile devices
+  5. Improve the design of the page to your taste, while achieving optimal readability on desktop and mobile devices
+
+## Submitting your completed task
+
+You should submit your work by email either as a zip/tar of code, or as a patch against the original repo.
+
+Please do not file a pull request against the original repo - other candidates will see your work.
+
+## Candidate notes
+
+Please include explanatory notes here.
