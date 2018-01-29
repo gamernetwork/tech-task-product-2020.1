@@ -54,6 +54,8 @@ You can now start a local development server (errors and access logs will show h
 .env/bin/python manage.py runserver
 ```
 
+Point your browser at http://127.0.0.1:8000 and you should see a list of 3 posts, which can be clicked.
+
 ### Note regarding database
 
 If you get into a mess with migrations, etc, you can just move/delete the `db.sqlite3` file and re-run the `migrate`, `loaddata` and `createsuperuser` steps again to get back to a fresh install.
