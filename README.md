@@ -14,7 +14,7 @@ You will be asked to:
 
 The task is designed to allow you to demonstrate your ability to use new technology, to interpret specifications, to solve programming problems and to present information.
 
-The task is intended to consume an evening - please do not spend more than 3 hours on it.
+The task is intended to consume an evening - please do not spend more than 3 hours on it. If you do start to overrun significantly then please get in touch to discuss - we may have misjudged the timing!
 
 If anything is unclear, please do no hesitate to get in touch. (The mind-reading test comes later...)
 
