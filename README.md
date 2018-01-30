@@ -20,9 +20,23 @@ If anything is unclear, please do no hesitate to get in touch. (The mind-reading
 
 ## Getting set up
 
-Install Python 2.7 if you don't already have it.
+Install **Python 2.7** if you don't already have it (should be fine on OSX and Linux).
 
-In a shell, run the following:
+You may also need to install `virtualenv`:
+
+OSX:
+
+```
+sudo easy_install virtualenv
+```
+
+Ubuntu or Debian Linux:
+
+```
+sudo apt install virtualenv
+```
+
+Then, in a shell, run the following to set up the project:
 
 ```bash
 git clone https://github.com/gamernetwork/tech-task-frontend-2018.1.git
