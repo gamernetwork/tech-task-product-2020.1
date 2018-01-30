@@ -88,7 +88,7 @@ Please do the following:
   4. Render these new fields on each post page and on the index page
   5. Using either client-side (js) or server-side (python) code, insert a blue 300x250 advert placeholder in the main text flow on a post page (i.e. to interrupt reading), according to these constraints:
      1. An ad must not occur immediately before or after an image
-     2. Ad ad must not occur at the start, not the end of the article
+     2. An ad must not occur at the start, not the end of the article
   6. Improve the design of the page to your taste, while achieving optimal readability on desktop and mobile devices
 
 ## Submitting your completed task
