@@ -70,6 +70,8 @@ You can now start a local development server (errors and access logs will show h
 
 Point your browser at http://127.0.0.1:8000 and you should see a list of 3 posts, which can be clicked.
 
+The data for the site can be modified using the backend available here: http://127.0.0.1:8000/admin/ (log in using the superuser account you created.)
+
 ### Note regarding database
 
 If you get into a mess with migrations, etc, you can just move/delete the `db.sqlite3` file and re-run the `migrate`, `loaddata` and `createsuperuser` steps again to get back to a fresh install.
@@ -82,11 +84,12 @@ Please do the following:
      1. datetime (mandatory, default to now)
      2. a subheading (not mandatory, max 200 characters)
   2. Refer to https://docs.djangoproject.com/en/1.11/topics/migrations/#workflow for steps to get your model changes into the database.
-  3. Render these new fields on each post page and on the index page
-  4. Using either client-side (js) or server-side (python) code, insert a blue 300x250 advert placeholder in the main text flow on a post page (i.e. to interrupt reading), according to these constraints:
+  3. Populate the new fields using the admin site.
+  4. Render these new fields on each post page and on the index page
+  5. Using either client-side (js) or server-side (python) code, insert a blue 300x250 advert placeholder in the main text flow on a post page (i.e. to interrupt reading), according to these constraints:
      1. An ad must not occur immediately before or after an image
      2. Ad ad must not occur at the start, not the end of the article
-  5. Improve the design of the page to your taste, while achieving optimal readability on desktop and mobile devices
+  6. Improve the design of the page to your taste, while achieving optimal readability on desktop and mobile devices
 
 ## Submitting your completed task
 
