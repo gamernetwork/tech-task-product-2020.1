@@ -1,4 +1,4 @@
-# Gamer Network Technical Task - Frontend Developer
+# Gamer Network Technical Task - Developer, Product
 
 Hi!
 
