@@ -97,6 +97,7 @@ You should submit your work by email either as a zip/tar of code, or as a patch 
 
 Please do not file a pull request against the original repo - other candidates will see your work.
 
-## Candidate notes
+## Candidate's notes
 
-Please include explanatory notes here.
+Candidates should include explanatory notes here.
+
