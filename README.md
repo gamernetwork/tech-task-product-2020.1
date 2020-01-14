@@ -20,30 +20,17 @@ If anything is unclear, please do no hesitate to get in touch. (The mind-reading
 
 ## Getting set up
 
-Install **Python 2.7** if you don't already have it (should be fine on OSX and Linux).
-
-You may also need to install `virtualenv`:
-
-OSX:
-
-```
-sudo easy_install virtualenv
-```
-
-Ubuntu or Debian Linux:
-
-```
-sudo apt install virtualenv
-```
+Install **Python 3** if you don't already have it (should be fine on OSX and Linux).
 
 Then, in a shell, run the following to set up the project:
 
 ```bash
-git clone https://github.com/gamernetwork/tech-task-frontend-2018.1.git
-cd tech-task-frontend-2018.1
+git clone https://github.com/gamernetwork/tech-task-product-2020.1.git
+cd tech-task-product-2020.1
 
 # set up a python virtual environment
 virtualenv .env
+python -m venv .env
 
 # install Django into this environment
 .env/bin/pip install -r requirements.txt
