@@ -29,7 +29,7 @@ git clone https://github.com/gamernetwork/tech-task-product-2020.1.git
 cd tech-task-product-2020.1
 
 # set up a python virtual environment
-python -m venv .env
+python3 -m venv .env
 
 # install Django into this environment
 .env/bin/pip install -r requirements.txt
