@@ -4,7 +4,7 @@ Hi!
 
 In this task you will set up a working copy of a very, very simple news/reviews website, using some code provided.
 
-The site is built using the Django framework (v1.11) and Python.
+The site is built using the Django framework (v2.2) and Python.
 
 You will be asked to:
 
